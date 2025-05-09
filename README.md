@@ -1,1 +1,2 @@
 # DATABASE-ENCRYPTION-IMPLEMENTATION
+This project demonstrates database encryption by securely storing and retrieving sensitive user information—like email addresses—using Python and SQLite. It uses the cryptography library to encrypt the email before saving it in the database and decrypt it when reading it back, ensuring that even if someone accesses the database file, the data remains unreadable without the secret key. This approach helps protect personal data and is especially useful in applications where privacy and data security are critical.
